@@ -105,3 +105,83 @@ Seccion noticias
 .link-noticias:hover{
     opacity: 30%;
 }
+/*
+Seccion equipo
+*/
+
+.team-title{
+    border: solid;
+    text-align: center;
+    color: white;
+    background-color:blue;
+    padding: 15px;
+}
+.team-container{
+    display: flex;
+}
+.team-card{
+    width: 20%;
+}
+.team-card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 200px;
+    border-radius: 100px;
+}
+.team-card h2{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    border-bottom: solid;
+    margin: 10px;
+    color: white;
+}
+
+.team-card p{
+    display: block;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+/*
+FOOTER
+*/
+footer{
+    display: flex;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    background: blue;
+    border-top: solid;
+    border-color: white;
+}
+.informacion{
+    width: 50%;
+}
+.contacto{
+    width: 50%;
+    text-align: right;
+}
+
+footer h2{
+    color: white;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+footer h3{
+    color: white;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+}
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    opacity: 50%;
+}

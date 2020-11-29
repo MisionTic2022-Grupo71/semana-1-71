@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/> 
-    <title>Mi primera pagina web</title>
+    <title>Desarrollando Software</title>
 </head>
 <body>
     <header><!--Seccion de cabezera-->
-        <div class = "menu-container">
+        <div class = "menu-container" id="inicio">
             <h1 class="titulo-cabecero">Desarrollando Software</h1>
             <nav>            
                 <ul class="menu">
-                    <li class="menu__item"><a class="menu__link" href="#titulo-cabecero">INICIO</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#inicio">INICIO</a></li>
                     <li class="menu__item"><a class="menu__link" href="#services">SERVICIOS</a></li>
                     <li class="menu__item"><a class="menu__link" href="#news">NOTICIAS</a></li>
                     <li class="menu__item"><a class="menu__link" href="#team">EQUIPO</a></li>
@@ -76,9 +76,61 @@
                 </div>
             </div>
         </div> <!--Seccion de noticias-->
-        <div></div> <!--Seccion de equipo-->
+
+        <div id="team">
+            <h2 class="team-title">SECCION EQUIPO</h2>
+            <div class="team-container">
+                <div class="team-card">
+                    <img src="juan.JPG" alt="programador del equipo">
+                    <h2>Juan Pablo Caycedo Hernandez</h2>
+                    <p>Tengo 22 años, estudio ingenieria mecanica en la Universidad Nacional sede Bogota, y mis pasatiempos son tocar la guitarra y hacer ejercicio</p>
+                </div>
+                <div class="team-card">
+                    <img src="daniel.jpeg" alt="programador del equipo">
+                    <h2>Daniel Galvez Zuluaga</h2>
+                    <p>Tengo 26 años, Estudio Ingenieria Electronica en la Universidad Nacional sede manizales, y de pasatiempo imagino que son los hobbies asi que jugar videojuegos y ver series.</p>
+                </div>
+                <div class="team-card">
+                    <img src="alexander.jpeg" alt="programador del equipo">
+                    <h2>Roque Alexander Pineda</h2>
+                    <p>soy Profesor de Diseño Asistido por Computador en un colegio en la ciudad de Tocancipá,  me gusta jugar  futbol y la tecnología aplicada a la educación.</p>
+                </div>
+                <div class="team-card">
+                    <img src="sinfoto.jpg" alt="programador del equipo">
+                    <h2>Omar Campos</h2>
+                    <p>...</p>
+                </div>
+                <div class="team-card">
+                    <img src="sinfoto.jpg" alt="programador del equipo">
+                    <h2>Emmanuel Escobar</h2>
+                    <p>...</p>
+                </div>
+            </div>
+        </div> <!--Seccion de equipo-->
     </main>
-    <footer></footer><!--Seccion de pie del sitio-->
+    <footer>
+        <div class="informacion">
+            <h2>Desarrollando Software</h2>
+            <h3>¡¡Estamos para brindar el mejor servicio!!</h3>
+            <h2>Link del Repositorio:</h2>
+            <h3><a href="https://github.com/MisionTic2022-Grupo71/semana-1-71">https://github.com/MisionTic2022-Grupo71/semana-1-71</a></h3>
+        </div>
+        <div class="contacto">
+            <div class="container-contacto">
+                <h2>Juan Pablo Caycedo Hernandez</h2>
+                <h3>jpcaycedo@gmail.com</h3>
+                <h3>Rol: Programador</h3>
+
+                <h2>Daniel Galvez Zuluaga</h2>
+                <h3>dannytrompeta@gmail.com</h3>
+                <h3>Rol: Programador</h3>
+
+                <h2>Roque Alexander Pineda</h2>
+                <h3>rpinedac@ibero.edu.co</h3>
+                <h3>Rol: Programador</h3>
+            </div>
+        </div>
+    </footer><!--Seccion de pie del sitio-->
 
 </body>
 </html>
