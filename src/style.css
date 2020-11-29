@@ -41,3 +41,67 @@ nav{
 .imagen-cabecera{
     width: 100%;
 }
+
+/*
+Seccion noticias
+*/
+#news h2{
+    border: solid;
+    text-align: center;
+    color: white;
+    background-color:blue;
+    padding: 15px;
+}
+.noticia-completa{
+    width: 50%;
+    min-height: 100%;
+}
+
+.imagen-noticia{
+
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.noticias-container{
+    display: flex;
+    width: 100%;
+}
+
+.texto-noticia{
+    display: inline-block;
+    width: 65%;  
+    margin-left: 5px;
+    color: white;
+    margin-bottom: 0px;
+    min-height: 100%;
+}
+
+.parrafo-noticias{
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    text-align: justify;
+    
+}
+
+.link-noticias{
+    border: solid;
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.link-noticias:hover{
+    opacity: 30%;
+}
