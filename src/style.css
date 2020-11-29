@@ -42,6 +42,54 @@ nav{
     width: 100%;
 }
 
+
+/*sección servicios*/
+#services h2{
+    border: solid;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 15px;
+   
+}
+
+.servicios-container{
+    display: flex;
+    width: 100%;
+}
+.servicios-total{
+    width: 25%;
+    display: block;
+    margin:auto;
+    padding: 5px;
+    
+    
+    
+}
+.parrafo-servicio{
+    display: block;
+    width: fit-content;
+    border: solid;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicios-parrafo{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: white;
+
+
+}
+
 /*
 Seccion noticias
 */
@@ -105,3 +153,4 @@ Seccion noticias
 .link-noticias:hover{
     opacity: 30%;
 }
+
